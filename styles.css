@@ -1,0 +1,64 @@
+/* TODO: add roboto font to the page. Needs left, right, center for each section. */
+body{
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+.header-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 0px;
+    background-color: #1F2937;
+    font-family: roboto;
+    width: 100%;
+}
+.header-top-left{
+    text-align: center;
+}
+.hero-logo{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+.header-top-right, a, a:visited{
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    font-family: roboto;
+    color: #E5E7EB;
+    width: 30%;
+    text-decoration: none;
+}
+.header-bottom{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    background-color: #1F2937;
+    padding: 50px;
+}
+.header-bottom-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    border-style: solid;
+    flex: 1 1 0%;
+}
+.hero-header{
+    font-size: 48px;
+    color: #F9FAF8;
+    font-weight: extra-bold;
+}
+.hero-text{
+    font-size: 18px;
+    color: #E5E7EB;
+    font-family: roboto;
+}
+.header-bottom-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    border-style: solid;
+    flex: 1 1 0%;
+}
