@@ -1,64 +1,99 @@
-/* TODO: add roboto font to the page. Needs left, right, center for each section. */
 body{
+    background-color: black;
     margin: 0px;
-    display: flex;
-    flex-direction: column;
-    width: 100%;
-}
-.header-top{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    margin: 0px;
-    background-color: #1F2937;
-    font-family: roboto;
-    width: 100%;
-}
-.header-top-left{
-    text-align: center;
 }
 .hero-logo{
     font-size: 24px;
-    color: #F9FAF8;
+    color: #f9faf8;
 }
-.header-top-right, a, a:visited{
-    display: flex;
-    justify-content: center;
+.hero-link, .hero-text, .hero-link:visited{
     font-size: 18px;
-    font-family: roboto;
-    color: #E5E7EB;
-    width: 30%;
+    color: #e5e7eb;
     text-decoration: none;
-}
-.header-bottom{
-    display: flex;
-    justify-content: center;
-    align-items: stretch;
-    background-color: #1F2937;
-    padding: 50px;
-}
-.header-bottom-left{
-    display: flex;
-    flex-direction: column;
-    justify-content: left;
-    border-style: solid;
-    flex: 1 1 0%;
 }
 .hero-header{
     font-size: 48px;
-    color: #F9FAF8;
-    font-weight: extra-bold;
+    font-weight: 800;
+    color: #f9faf8;   
 }
-.hero-text{
-    font-size: 18px;
-    color: #E5E7EB;
-    font-family: roboto;
-}
-.header-bottom-right{
+.header-container{
     display: flex;
-    align-items: center;
-    justify-content: center;
-    background-color: #E5E7EB;
-    border-style: solid;
+    justify-content: space-around;
+    background-color: #1f2937;
+}
+.header-left{
+    display: flex;
     flex: 1 1 0%;
+
+    border-style: solid;
+    border-color: white;
+}
+.header-center{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    flex: 2 1 0%;
+
+    
+    border-style: solid;
+    border-color: white;
+}
+.header-center-top{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+
+    border-style: solid;
+    border-color: white;
+}
+.logo-container{
+    display: flex;
+    flex: 1 1 0%;
+}
+.link-container{
+    display: flex;
+    flex: 2 1 0%;
+    justify-content: space-around;
+}
+.header-center-bottom{
+    display: flex;
+    justify-content: space-between;
+
+    border-style: solid;
+    border-color: white;
+}
+.hero-header-container{
+    display: flex;
+    flex-direction: column;
+    flex: 1 1 0%;
+    
+    border-style: solid;
+    border-color: white;
+}
+.hero-image-container{
+    display: flex;
+    flex: 1 1 0%;
+    justify-content: center;
+    width: 100%;
+    background-color: gray;
+    
+    border-style: solid;
+    border-color: white;
+}
+.image-plholder{
+    display: flex;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: #e5e7eb;
+    text-decoration: none;
+}
+.header-right{
+    display: flex;
+    flex: 1 1 0%;
+
+    border-style: solid;
+    border-color: white;
 }
