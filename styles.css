@@ -1,6 +1,9 @@
 body{
     background-color: black;
-    margin: 0px;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 .hero-logo{
     font-size: 24px;
@@ -14,7 +17,8 @@ body{
 .hero-header{
     font-size: 48px;
     font-weight: 800;
-    color: #f9faf8;   
+    color: #f9faf8;  
+    margin-bottom: -18px; 
 }
 .header-container{
     display: flex;
@@ -24,28 +28,18 @@ body{
 .header-left{
     display: flex;
     flex: 1 1 0%;
-
-    border-style: solid;
-    border-color: white;
 }
 .header-center{
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    flex: 2 1 0%;
-
-    
-    border-style: solid;
-    border-color: white;
+    flex: 4 1 0%;
 }
 .header-center-top{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-
-
-    border-style: solid;
-    border-color: white;
+    margin-bottom: 80px;
 }
 .logo-container{
     display: flex;
@@ -53,23 +47,36 @@ body{
 }
 .link-container{
     display: flex;
-    flex: 2 1 0%;
+    flex: 1 1 0%;
     justify-content: space-around;
 }
 .header-center-bottom{
     display: flex;
     justify-content: space-between;
-
-    border-style: solid;
-    border-color: white;
+    margin-bottom: 100px;
 }
 .hero-header-container{
     display: flex;
     flex-direction: column;
     flex: 1 1 0%;
-    
+    margin-right: 30px;
+    align-items: baseline;
+}
+.hero-bottom{
+    display: flex;
+    justify-content: left;
+}
+.hero-button{
+    color: #e5e7eb;
+    background-color: #3882f6;
     border-style: solid;
-    border-color: white;
+    border-color: #e5e7eb;
+    border-radius: 7px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 20px;
+    padding-right: 20px;
+    font-weight: 700;
 }
 .hero-image-container{
     display: flex;
@@ -77,9 +84,7 @@ body{
     justify-content: center;
     width: 100%;
     background-color: gray;
-    
-    border-style: solid;
-    border-color: white;
+    margin-left: 30px;
 }
 .image-plholder{
     display: flex;
@@ -93,7 +98,4 @@ body{
 .header-right{
     display: flex;
     flex: 1 1 0%;
-
-    border-style: solid;
-    border-color: white;
 }
