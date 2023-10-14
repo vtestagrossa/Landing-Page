@@ -1,9 +1,11 @@
 body{
     background-color: black;
-    margin-left: 5%;
-    margin-right: 5%;
-    margin-top: 0px;
-    margin-bottom: 0px;
+    margin: 0px;
+    font-family: Roboto;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
 }
 .hero-logo{
     font-size: 24px;
@@ -69,7 +71,6 @@ body{
 .hero-button{
     color: #e5e7eb;
     background-color: #3882f6;
-    border-style: solid;
     border-color: #e5e7eb;
     border-radius: 7px;
     padding-top: 7px;
@@ -98,4 +99,88 @@ body{
 .header-right{
     display: flex;
     flex: 1 1 0%;
+}
+.content-pane{
+    display: flex;
+    background-color: white;
+}
+.content-inner-left{
+    display: flex;
+    flex: 1 1 0%;
+}
+.content-inner-right{
+    display: flex;
+    flex: 1 1 0%;
+}
+.content-inner-center{
+    display: flex;
+    flex: 4 1 0%;
+    flex-direction: column;
+}
+.content-inner-top{
+    margin-top: 30px;
+    text-align: center;
+    margin-bottom: 10px;
+}
+.content-inner-bottom{
+    display: flex;
+    justify-content: center;
+    margin-bottom: 70px;
+}
+.content-fig-container{
+    display: flex;
+    flex-direction: column;
+    margin: 20px;
+    color: #1f2937;
+}
+.content-img-container{
+    width: 150px;
+    height: 150px;
+    border-color: #3882F6;
+    border-style: solid;
+    border-radius: 15px;
+}
+.content-caption{
+    width: 150px;
+    text-align: center;
+    font-style: italic;
+}
+.information-header{
+    font-size: 36px;
+    font-weight: 800;
+    color: #1f2937;
+}
+.quote-pane{
+    display: flex;
+    background-color: #e5e7eb;
+    justify-content: right;
+}
+.quote-inner-left{
+    display: flex;
+    flex: 1 1 0%;
+}
+.quote-inner-right{
+    display: flex;
+    flex: 1 1 0%;
+}
+.quote-inner-center{
+    margin-top: 70px;
+    margin-bottom: 70px;
+    display: flex;
+    flex: 4 1 0%;
+    justify-content: right;
+}
+.insp-quote{
+    font-family: 'Roboto';
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    color: #1f2937;
+}
+footer, cite{
+    margin-top: 7px;
+    font-size: 24px;
+    text-align: right;
+    font-style: normal;
+    font-weight: 900;
 }
