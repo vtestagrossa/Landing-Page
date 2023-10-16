@@ -6,6 +6,7 @@ body{
     align-items: center;
 }
 .body-container{
+    margin-top: 60px;
     margin-right: 60px;
     margin-left: 60px;
     display: flex;
