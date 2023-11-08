@@ -121,6 +121,9 @@ body{
     background-color: gray;
     margin-left: 30px;
 }
+.hero-image{
+    width: 100%;
+}
 .image-plholder{
     display: flex;
     color: white;
