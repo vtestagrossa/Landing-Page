@@ -7,6 +7,8 @@ body{
     margin-top: 3em;
     font-family: Roboto;
     background-color: #1f2937;
+    background-image:url(https://images.unsplash.com/photo-1504672281656-e4981d70414b?q=80&w=1170&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D);
+    background-attachment: fixed;
     align-items: center;
 }
 .body-container{
@@ -46,7 +48,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
-    width: 95%;
+    width: 100%;
 }
 .header-left{
     display: flex;
@@ -80,6 +82,7 @@ body{
     position: sticky;
     top: 0;
     background-color: #1f2937;
+    opacity: 95%;
     border-style: ridge;
 }
 .header-center-bottom{
