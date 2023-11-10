@@ -1,19 +1,22 @@
 body{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: black;
-    margin: 0px;
+    margin-top: 3rem;
     font-family: Roboto;
     background-color: #1f2937;
     align-items: center;
 }
 .body-container{
-    margin-top: 8rem;
-    margin-right: 5rem;
-    margin-left: 5rem;
     display: flex;
     flex-direction: column;
     justify-content: center;
+    align-items: center;
     border-style: outset;
     border-color: #e5e7eb;
+    width: 90%;
 }
 .hero-logo{
     font-size: 1.5rem;
@@ -42,6 +45,7 @@ body{
     display: flex;
     justify-content: space-around;
     background-color: #1f2937;
+    width: 95%;
 }
 .header-left{
     display: flex;
@@ -57,6 +61,7 @@ body{
     display: flex;
     justify-content: left;
     align-items: center;
+    padding-left: 1rem;
     flex: 1 1 0%;
 }
 .link-container{
@@ -68,16 +73,13 @@ body{
 }
 .navigation{
     display: flex;
+    width: 100%;
     align-items: center;
     justify-content: space-between;
     position: sticky;
     top: 0;
-    z-index: 100;
     background-color: #1f2937;
     border-style: ridge;
-    padding-left: 2rem;
-    padding-top: 1rem;
-    padding-bottom: 1rem;
 }
 .header-center-bottom{
     display: flex;
@@ -146,6 +148,9 @@ body{
 }
 .content-pane{
     display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
     background-color: white;
 }
 .content-inner-left{
@@ -206,6 +211,7 @@ body{
 .quote-pane{
     display: flex;
     background-color: #e5e7eb;
+    width: 100%;
     justify-content: right;
 }
 .quote-inner-left{
@@ -242,6 +248,7 @@ footer, cite{
     background-color: white;
     justify-content: center;
     align-items: center;
+    width: 100%;
 }
 .c2a-container-left{
     display: flex;
