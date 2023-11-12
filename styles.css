@@ -80,7 +80,7 @@ body{
     align-items: center;
     justify-content: space-between;
     position: sticky;
-    top: 0;
+    top: 0%;
     background-color: #1f2937;
     opacity: 95%;
     border-style: ridge;
@@ -236,6 +236,12 @@ body{
     font-style: italic;
     color: #1f2937;
 }
+.insp-citation{
+    font-size: 0.8em;
+}
+.insp-citation > cite{
+    font-size: 0.9em;
+}
 footer, cite{
     margin-top: 0.5em;
     font-size: 1.5em;
@@ -267,13 +273,14 @@ footer, cite{
     padding-bottom: 3.25em;
     padding-left: 1em;
     padding-right: 1em;
-    width: 85%;
+    width: 65%;
     display: flex;
     background-color: #3882f6;
     color: #f9faf8;
     justify-content: space-around;
     align-items: center;
-    border-radius: .8em;
+    border-radius: 3em;
+    border-style:double;
 }
 .c2a-left{
     width: 50%;
